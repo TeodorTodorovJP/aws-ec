@@ -76,3 +76,5 @@ export const Counter = () => {
     </div>
   )
 }
+
+export default Counter
