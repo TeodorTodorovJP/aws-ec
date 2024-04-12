@@ -28,7 +28,7 @@ app.use(function(req, res, next) {
 
 async function getDataFromProductsApp() {
   try {
-    const url = 'https://1c0309mbek.execute-api.us-east-1.amazonaws.com/staging/products'
+    const url = 'https://lay0qqk8q8.execute-api.us-east-1.amazonaws.com/staging/products'
     const response = await axios.get(url);
     return response.data;
   } catch (error) {
